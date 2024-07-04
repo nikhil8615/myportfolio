@@ -35,41 +35,41 @@
 
 .slider ul li {
   list-style: none;
-  flex: 0 0 50%; /* Ensure two images are shown at a time */
-  padding: 10px; /* Adjust this value to control the gap between images */
+  flex: 0 0 50%; 
+  padding: 10px; 
 }
 
 .slide {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
-  padding: 20px; /* Adjust padding if necessary */
+  padding: 20px;
   border-radius: 10px;
   background-size: contain;
 }
 
 .slide img {
   width: 100%;
-  max-width: 600px; /* Increase this value if needed */
+  max-width: 600px; 
 }
 
 @media (max-width: 1200px) {
   .slider ul li {
-    flex: 0 0 50%; /* Ensure two images are shown at a time */
-    padding: 5px; /* Adjust this value to control the gap between images */
+    flex: 0 0 50%;
+    padding: 5px; 
   }
 
   .slide img {
-    max-width: 500px; /* Adjust max-width for smaller screens */
+    max-width: 500px; 
   }
 }
 
 @media (max-width: 768px) {
   .slider ul li {
-    flex: 0 0 100%; /* Ensure one image is shown at a time */
-    padding: 5px; /* Adjust this value to control the gap between images */
+    flex: 0 0 100%; 
+    padding: 5px; 
   }
 
   .slide img {
-    max-width: 100%; /* Adjust max-width for smaller screens */
+    max-width: 100%; 
   }
 }
 
@@ -81,12 +81,12 @@
   }
 
   .slide {
-    padding: 0; /* Remove padding to give the images more space */
+    padding: 0;
   }
 
   .slide img {
     max-width: 100%;
-    width: 100%; /* Make sure the image takes up the full width */
-    height: auto; /* Ensure the image height adjusts automatically */
+    width: 100%;
+    height: auto; 
   }
 }
