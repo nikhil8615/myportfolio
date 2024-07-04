@@ -1,0 +1,92 @@
+.testimonials {
+  margin: 80px auto;
+  padding: 0 80px;
+  position: relative;
+}
+
+.next-btn,
+.back-btn {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  padding: 15px;
+  width: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
+}
+
+.back-btn {
+  right: auto;
+  left: 0;
+}
+
+.slider {
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.slider ul {
+  display: flex;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.slider ul li {
+  list-style: none;
+  flex: 0 0 50%; /* Ensure two images are shown at a time */
+  padding: 10px; /* Adjust this value to control the gap between images */
+}
+
+.slide {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  padding: 20px; /* Adjust padding if necessary */
+  border-radius: 10px;
+  background-size: contain;
+}
+
+.slide img {
+  width: 100%;
+  max-width: 600px; /* Increase this value if needed */
+}
+
+@media (max-width: 1200px) {
+  .slider ul li {
+    flex: 0 0 50%; /* Ensure two images are shown at a time */
+    padding: 5px; /* Adjust this value to control the gap between images */
+  }
+
+  .slide img {
+    max-width: 500px; /* Adjust max-width for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .slider ul li {
+    flex: 0 0 100%; /* Ensure one image is shown at a time */
+    padding: 5px; /* Adjust this value to control the gap between images */
+  }
+
+  .slide img {
+    max-width: 100%; /* Adjust max-width for smaller screens */
+  }
+}
+
+@media (max-width: 500px) {
+  .next-btn,
+  .back-btn {
+    width: 40px;
+    padding: 10px;
+  }
+
+  .slide {
+    padding: 0; /* Remove padding to give the images more space */
+  }
+
+  .slide img {
+    max-width: 100%;
+    width: 100%; /* Make sure the image takes up the full width */
+    height: auto; /* Ensure the image height adjusts automatically */
+  }
+}

@@ -1,0 +1,48 @@
+/* ServiceDetail.css */
+.service-detail {
+  max-width: 800px;
+  margin: 80px auto; /* Adjust top margin to create space below navbar */
+  padding: 30px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.service-detail h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.service-detail p {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.service-detail a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.service-detail a:hover {
+  text-decoration: underline;
+}
+
+.service-detail .link-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.service-detail .link-container img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
