@@ -53,8 +53,8 @@ const Contact = () => {
           </p>
           <div className="contact_details">
             <div className="contact_detail">
-              <a href="">
-                <img src={mail_icon} alt="mailto:nikhilbdps1256@gmail.com" /> <p>nikhilbdps1256@gmail.com</p>
+              <a href="mailto:nikhilbdps1256@gmail.com">
+                <img src={mail_icon} alt="" /> <p>nikhilbdps1256@gmail.com</p>
               </a>
             </div>
             <div className="contact_detail">
