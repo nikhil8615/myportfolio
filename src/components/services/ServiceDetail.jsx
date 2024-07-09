@@ -2,8 +2,8 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import servicedata from "../../assets/services_data";
-import arrowIcon from "../../assets/arrow_icon.svg"; // Replace with your actual arrow icon
-import "./ServiceDetail.css"; // Import your CSS file for ServiceDetail styling
+import arrowIcon from "../../assets/arrow_icon.svg";
+import "./ServiceDetail.css";
 
 const ServiceDetail = () => {
   const { id } = useParams();

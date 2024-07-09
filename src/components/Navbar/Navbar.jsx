@@ -23,7 +23,7 @@ const Navbar = () => {
 
   const handleMenuItemClick = (section) => {
     setMenu(section);
-    setMenuOpen(false); // Close the menu when an item is clicked
+    setMenuOpen(false);
   };
 
   return (

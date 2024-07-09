@@ -3,7 +3,8 @@ import Typed from "typed.js";
 import "./Hero.css";
 import dark_arrow from "../../assets/dark-arrow.png";
 import profileImage from "../../assets/nikik.jpg";
-import resumePDF from "../../assets/nikhil_cv_fixed.pdf";
+// import resumePDF from "../../assets/nikhil_cv_fixed.pdf";
+import resumePDF from "../../assets/Nikhil_Resum.pdf";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Hero = () => {
