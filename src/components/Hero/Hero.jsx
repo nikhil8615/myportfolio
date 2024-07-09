@@ -33,8 +33,8 @@ const Hero = () => {
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = resumePDF;
-    link.download = "Nikhil_Singh_Resume.pdf";
+    link.href = "https://myportfolio-ten-pink.vercel.app/";
+    link.download = "https://myportfolio-ten-pink.vercel.app/";
     link.click();
   };
 
