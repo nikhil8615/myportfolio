@@ -53,15 +53,19 @@ const Contact = () => {
           </p>
           <div className="contact_details">
             <div className="contact_detail">
-              <a href="">
+              <a href="mailto:nikhilbdps1256@gmail.com">
                 <img src={mail_icon} alt="" /> <p>nikhilbdps1256@gmail.com</p>
               </a>
             </div>
             <div className="contact_detail">
-              <img src={call_icon} alt="" /> <p>+91 7352972097</p>
+              <a href="tel:+917352972097">
+                <img src={call_icon} alt="" /> <p>+91 7352972097</p>
+              </a>
             </div>
             <div className="contact_detail">
-              <img src={location_icon} alt="" /> <p>Jalandhar, Punjab</p>
+              <a href="https://maps.app.goo.gl/7BcBiJmyEEefu2Hi6">
+                <img src={location_icon} alt="" /> <p>Jalandhar, Punjab</p>
+              </a>
             </div>
           </div>
         </div>

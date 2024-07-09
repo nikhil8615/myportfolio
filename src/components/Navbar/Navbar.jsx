@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
-import logo from "../../assets/Nikhil.jpg";
+
 import underline from "../../assets/nav_underline.svg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import menu_open from "../../assets/menu_open.svg";
@@ -28,7 +28,7 @@ const Navbar = () => {
 
   return (
     <nav className={`container ${sticky ? "dark_nav" : ""}`}>
-      {/* <img src={logo} alt="Logo" className="logo" /> */}
+     
       <button className="nav_mob_open" onClick={toggleMenu}>
         <img src={menu_open} alt="Open Menu" />
       </button>
